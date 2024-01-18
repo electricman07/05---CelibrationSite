@@ -1,5 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
+
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+
+#balloon-container .header {
+  position: absolute;
+  left: 10rem;
+  top: 300px;
+  text-align: center;
+  font-family: "Finger Paint", sans-serif;
+  font-size: 7rem;
+  transform: rotate(-15deg);
 }
 
 #balloon-container {
